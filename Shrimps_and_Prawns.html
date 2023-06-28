@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="icons/shrimp_icon.png">
+    <link rel="stylesheet" href="css_styles/gura_css/header.css">
+    <link rel="stylesheet" href="css_styles/gura_css/general.css">
+    <link rel="stylesheet" href="css_styles/gura_css/video.css">
+    <link rel="stylesheet" href="css_styles/gura_css/front.css">
+    <link rel="stylesheet" href="css_styles/gura_css/bubbles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Carter+One&family=Cherry+Bomb+One&family=Dancing+Script:wght@400;500;700&family=Handlee&family=Lobster+Two:ital@0;1&family=Megrim&family=Noto+Sans+JP&family=Open+Sans:wght@300;400;700&family=Oswald:wght@200;300;400;700&family=Rock+3D&family=Snowburst+One&display=swap" rel="stylesheet">
+    <title>Shrimps & Prawns</title>
+</head>
+<body>
+    <div class="header space layer1">
+        <div class="left-section">
+            <div class="logo-cont">
+                <a href="http://127.0.0.1:5500/%E3%83%9B%E3%83%AD%E3%83%A9%E3%82%A4%E3%83%96%E3%82%A6%E3%82%A7%E3%83%96%E3%82%B5%E3%82%A4%E3%83%88.html">
+                    <img class="shrimp-logo" src="icons/shrimp_icon.png">
+                    <p>Hololive Wave</p>
+                </a>
+            </div>
+            <div class="sound-cont">
+                <audio id="audio" autoplay>
+                    <source src="music/yt1s.com -GAWR GURA New Gawr Gura BGM 1 hour.mp3" type="audio/mpeg">
+                </audio>
+                <button id="playMuteBtn" onclick="playMute()" class="sound-button">
+                    <img class="sound" src="icons/music-note.png">
+                </button>
+            </div>
+        </div>
+        <div class="right-section">
+            <ul class="right-cont">
+                <li class="about"><a href="#about-text">About</a></li>
+                <li class="clip-cont" style="pointer-events: none; padding-top: 10px;"><img class="clip" src="icons/hair-clip.png"></li>
+                <li><a href="#">Music</a></li>
+                <li class="clip-cont" style="pointer-events: none; padding-top: 10px;"><img class="clip" src="icons/hair-clip.png"></li>
+                <li><a href="#">Videos</a></li>
+                <li class="clip-cont" style="pointer-events: none; padding-top: 10px;"><img class="clip" src="icons/hair-clip.png"></li>
+                <li><a href="#">Talent</a></li>
+                <li class="clip-cont" style="pointer-events: none; padding-top: 10px;"><img class="clip" src="icons/hair-clip.png"></li>
+                <li><a href="#">Other Characters</a></li>
+            </ul>
+        </div>
+    </div>
+    <div>
+    </div>
+    <div class="cover">
+        <video class="back-video" autoplay loop muted plays-inline>
+            <source src="videos/hololive/Gawr Gura live wallpaper PC-[zipza.com].mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="starter-cont">
+        <div class="starter-sect">
+            <div class="shark-jump pop-outin">
+                <h1>SHAAAAAAAARK!!!</h1>
+            </div>
+            <div class="button-a">
+                <audio id="a-audio">
+                    <source src="music/gawr gura a (mp3cut.net).mp3" type="audio/mpeg">
+                </audio>
+                <button onclick="document.getElementById('a-audio').play();" class="a lineUp"><a style="text-decoration: none; color: white;" href="#about-text">a.</a></button>
+            </div>
+        </div>
+        <div id="bubbles">
+            <div class="bubble x1"></div>
+            <div class="bubble x2"></div>
+            <div class="bubble x3"></div>
+            <div class="bubble x4"></div>
+            <div class="bubble x5"></div>
+            <div class="bubble x6"></div>
+            <div class="bubble x7"></div>
+            <div class="bubble x8"></div>
+            <div class="bubble x9"></div>
+            <div class="bubble x10"></div>
+        </div>
+    </div>
+    <div class="second-cont">
+        <div class="sec-wave spacer layer2"></div>
+        <div class="second-sect">
+            <img class="shrimp-background" src="images/hololive/hi-sisters.png">
+            <div class="about-cont">
+                <div class="welcome-cont">
+                    <div class="welcome-sect">
+                        <p id="about-text" class="about-text block">About</p>
+                    </div>
+                    <div class="red-block-cont">
+                        <span class="red-one"></span>
+                        <span class="red-two block"></span>
+                    </div>
+                </div>
+                <div class="welcome-msg-sect">
+                    <div class="welcome-msg">
+                        <p>
+                            Welcome to the depths of cuteness and chaos, where the waves of joy crash against your screen! 
+                            As a devoted fan of the legendary Gawr Gura, I extend my fin-tastic greetings to you. 
+                            Prepare to dive into a world filled with whimsy, laughter, and adorable shenanigans! 
+                            Whether you're a fellow Gura enthusiast or a curious visitor, let's embark on a voyage 
+                            of smiles and good vibes together. Get ready to be charmed by the lovable shark idol and 
+                            surround yourself with the warmth of our vibrant community. From one Gura fan to another, 
+                            welcome to our oceanic sanctuary!
+                        </p>
+                    </div> 
+                    <div class="donate-sect">
+                        <div class="senzawa-sect">
+                            <img class="prof-senz" src="gifs/gawr-gura-hololive.gif">
+                            <p class="senz-said">Did ya know donating is greatly appreciated?</p>
+                            <button class="senz-button">Donate Now!</button>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="javascript/bg.js"></script>
+    <script src="javascript/scroll-out.js"></script>
+    <script type="text/javascript">
+        ScrollOut({
+            targets: '.block'
+        })
+    </script>
+    <style>
+        .spacer {
+            aspect-ratio: 1280/100;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .layer1 {
+            background-image: url('svg/layered-waves-haikei.svg');
+            opacity: .9;
+        }
+
+        .layer2 {
+            background-image: url('svg/sec-wave.svg');
+            opacity: 1;
+        }
+    </style>
+</body>
+</html>

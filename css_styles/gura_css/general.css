@@ -1,0 +1,38 @@
+html {
+    margin: 0;
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.spacer {
+    height: 10px;
+    display: fixed;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+p {
+    color: white;
+}
+
+/*
+font-family: 'Caprasimo', cursive;
+font-family: 'Carter One', cursive;
+font-family: 'Cherry Bomb One', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Handlee', cursive;
+font-family: 'Lobster Two', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Rock 3D', cursive;
+font-family: 'Snowburst One', cursive;
+font-family: 'Megrim', cursive;
+font-family: 'Noto Sans JP', sans-serif;
+*/

@@ -1,0 +1,105 @@
+.header {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    z-index: 100;
+    opacity: .9;
+    justify-content: space-between;
+}
+
+.right-section {
+    width: 730px;
+}
+
+.left-section, .right-cont {
+    display: flex;
+    gap: 25px;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: -10px;
+}
+
+.logo-cont, .logo-cont a, .sound-cont, .sound-button {
+    display: flex;
+    height: 55px;
+    align-items: center;
+    text-decoration: none; 
+}
+
+.shrimp-logo {
+    height: 80%;
+    margin-left: 5px;
+}
+
+.sound {
+    height: 60%;
+}
+
+.logo-cont p {
+    font-family: 'Cherry Bomb One', cursive;
+    color: white;  
+    font-size: 35px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+
+.sound:hover {
+    filter: brightness(110%);
+}
+
+.sound-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.right-cont {
+    gap: 0;
+    width: 700px;
+    font-size: 16px;  
+    font-family: 'Caprasimo', cursive;
+    list-style-type: none;
+    position: relative;
+    margin-right: 0;
+}
+
+.right-cont li a {
+    text-decoration: none;
+    color: white;
+}
+
+.clip {
+    height: 55px;
+}
+
+.right-cont li {
+    cursor: pointer;
+    border: hidden;
+    position: relative;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.right-cont .clip-cont {
+    padding: 0;
+}
+
+.right-cont li::after { 
+    content: "";
+    position: absolute;
+    background-image: linear-gradient(to right, #f12711, #f5af19);
+    height: 2px;
+    width: 0%;
+    left: 0;
+    bottom: -4px;
+    transition: 0.5s;
+}
+
+.right-cont li:hover::after {
+    width: 100%;
+}
+
+
